@@ -10,7 +10,7 @@ import com.junit.model.Employee;
 @RestController
 public class TestController {
 
-	@RequestMapping(value = "/employee", method = RequestMethod.GET)
+	@RequestMapping(value = "/employee1", method = RequestMethod.GET)
 	public Employee firstPage() {
 
 		Employee emp = new Employee();
