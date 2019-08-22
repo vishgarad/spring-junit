@@ -32,4 +32,13 @@ public class TestWebApp extends SpringBootJunitApplicationTests {
 				.andExpect(jsonPath("$.empId").value("1")).andExpect(jsonPath("$.salary").value(3000));
 
 	}
+	@Test
+	public void testHello() throws Exception
+	{
+		mockMvc.perform(get("/hello"))
+		.andExpect(status().isOk())
+		.andExpect(content().string("hello"));
+		
+	}
+	
 }
