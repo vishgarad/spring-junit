@@ -37,7 +37,7 @@ public class TestWebApp extends SpringBootJunitApplicationTests {
 	{
 		mockMvc.perform(get("/hello"))
 		.andExpect(status().isOk())
-		.andExpect(content().string("hello_new"));
+		.andExpect(content().string("hello"));
 		
 	}
 	
