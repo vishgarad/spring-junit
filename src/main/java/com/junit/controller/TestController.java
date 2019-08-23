@@ -30,7 +30,7 @@ public class TestController {
 	@GetMapping("/hi")
 	public String getHi()
 	{
-		return "hello";
+		return "hello how are you ";
 
 	}
 
