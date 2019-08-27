@@ -27,7 +27,7 @@ public class TestController {
 		return "hello_1";
 
 	}
-	@GetMapping("/")
+	@GetMapping("/hi")
 	public String getHi()
 	{
 		return "hello vishal how are you";
